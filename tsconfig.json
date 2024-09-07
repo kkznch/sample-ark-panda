@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "es2023",
+      "dom",
+    ],
+    "jsx": "react-jsx",
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/**/*.stories.tsx",
+  ],
+}
