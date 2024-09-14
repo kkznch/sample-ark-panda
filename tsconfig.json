@@ -12,6 +12,7 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
+    "styled-system",
   ],
   "exclude": [
     "node_modules",

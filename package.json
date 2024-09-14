@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "prepare": "panda codegen",
+    "panda:watch": "panda codegen --watch",
     "format": "biome format --write ./src",
     "storybook": "storybook dev -p 6006",
     "build:storybook": "storybook build"
@@ -25,6 +26,7 @@
     "@tsconfig/node22": "^22.0.0",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.45",
     "storybook": "^8.2.9",
     "typescript": "^5.5.4"
   }
